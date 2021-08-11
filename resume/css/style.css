@@ -7,8 +7,8 @@ html {
     width: 900px;
     height: 36px;
     position: fixed;
-    left: 72px;
     background-color: #eae9e9;
+    margin-top: -8px;
 }
 
 .links {
@@ -23,6 +23,7 @@ html {
 }
 
 body {
+    display: flex;
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
@@ -126,9 +127,9 @@ table {
 }
 
 .study .first {
-    width: 30%;
+    width: 32%;
     color: #868484;
-    vertical-align: top
+    vertical-align: top;
 }
 
 .study td {
@@ -159,9 +160,26 @@ table {
     background-color: #868484;
 }
 
-.year {
+footer {
     position: relative;
     top: 4px;
     left: 26%;
     width: 46%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    width: 8rem;
+    text-align: center;
+}
+
+.sidebar p {
+    background-color: #eae9e9;
+    margin: 0px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
