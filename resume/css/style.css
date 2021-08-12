@@ -52,7 +52,9 @@ a {
 
 .logo-avatar {
     margin: 12px;
-    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    max-height: 200px;
 }
 
 .logo-name {
@@ -133,7 +135,7 @@ table {
 }
 
 .study td {
-    padding-bottom: 18px; 
+    padding-bottom: 18px;
 }
 
 .inblock p {
@@ -173,20 +175,25 @@ footer {
     width: 42px;
     text-align: center;
     position: fixed;
-    top: 33%;
+    top: 36%;
+    box-shadow: 2px 0px 24px 8px black;
+    border-color: #eae9e9;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-radius: 2%;
 }
 
 .sidebar-item {
-    background-color: #eae9e9;
-    margin: 0px;
-    height: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #eae9e9;
+    margin: 0px;
+    height: 38px;
 }
 
 .sidebar-item:hover {
-    background-color: #dcdcdc;
+    background-color: white;
 }
 
 .sidebar-item img {
